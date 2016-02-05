@@ -94,7 +94,6 @@ public class Solution
             if(!doneRight){
               nextIndex = start;
             }
-            nextIndex = start;
           }else if(value>node.val && !doneRight){
             TreeNode nextNode = new TreeNode(value);
             node.right = nextNode;
